@@ -21,7 +21,7 @@ def insert_vehicle_snapshot(car_count, truck_count, motorcycle_count, bus_count)
     values = (car_count, truck_count, motorcycle_count, bus_count, total_count)
     cursor.execute(sql, values)
     conn.commit()
-    print(f"✅ Registro insertado correctamente: total={total_count}")
+    print(f"Registro insertado correctamente: total={total_count}")
 
 # Datos de prueba
 data = [
