@@ -69,8 +69,6 @@ def delete_snapshot(snap_id: int):
     except Exception:
         print(r.text or "{ }")
 
-# ------- Demo secuencial para el video -------
-
 if __name__ == "__main__":
     # 1) Listar existentes
     list_snapshots()
