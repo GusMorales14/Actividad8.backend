@@ -76,14 +76,14 @@ if __name__ == "__main__":
     list_snapshots()
 
     # 2) Crear uno nuevo
-    new_id = create_snapshot(car=12, truck=3, moto=5, bus=1)
+    new_id = create_snapshot(car=1, truck=1, moto=1, bus=1)
 
     # 3) Consultarlo por ID
     if new_id:
         get_snapshot(new_id)
 
         # 4) Actualizarlo
-        update_snapshot(new_id, car=10, truck=2, moto=4, bus=1)
+        update_snapshot(new_id, car=2, truck=2, moto=2, bus=2)
 
         # 5) Consultar de nuevo
         get_snapshot(new_id)
