@@ -2,9 +2,9 @@ import mysql.connector
 
 # Configurar conexión a MySQL
 conn = mysql.connector.connect(
-    host="127.0.0.1",       # Docker expone MySQL en localhost
+    host="127.0.0.1",       # Docker  MySQL en localhost
     user="root",
-    password="contrasena", # tu contraseña
+    password="contrasena", 
     database="trafico",
     port=3306
 )
